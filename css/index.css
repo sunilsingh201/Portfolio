@@ -16,6 +16,10 @@ body {
 Navigation bar
  */
 
+.init-home{
+  height: 100vh;
+  
+}
 ul {
   position: fixed;
   top: 0;
@@ -60,18 +64,11 @@ ul li a:hover {
   color:#e63464;
   font-size: 1.5rem;
   font-weight: 700;
-  
 }
 /*
 Home page introduction section
 */
 
-.home-cont {
-  height: 100vh;
-  width: 100%;
-  background-image: url(/portrait/ocean.jpg);
- 
-}
 .home-content{
   margin:15% 0 0 15%;
   display: inline-block;
@@ -98,41 +95,50 @@ Home page introduction section
 #desc-div-top {
   margin-top: -3.5%;
 }
+
 .interact-container {
   display: flex;
   margin-top: 3.5%;
 }
-.h-me a,
-.c-me a {
+.contact-me a{
   text-decoration: none;
-  font-size: 2rem;
-  font-weight: 300;
-  font-family: "Roboto", sans-serif;
-  padding: 7px 14px;
+  background-color:#4d6cfa;
   color: #fff;
-  border-radius: 6px;
-  border: 1px solid #e63464;
-  background-color: #e63464;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 15% 20%;
+ border-radius: 5px;
+ transition: all 0.5s ;
 }
-.c-me a {
-  border: 1px solid #4d6cfa;
-  background-color: #4d6cfa;
+.read-about{
+  margin-left: 7%;
 }
-#con-me {
-  margin-left: 5%;
+.read-about a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color:#fff;
+  opacity: 0.8;
+  font-size: 1.6rem;
+  transition: all 0.5s ;
 }
-.h-me a:hover {
-  border: 1px solid #e63464;
-  background-color: #e63464;
-  border-radius: 20px;
-  transition: all 0.3s ease-in-out;
+.read-about a:hover{
+  color: #4d6cfa;
+  
 }
-.c-me a:hover {
-  border: 1px solid #4d6cfa;
-  background-color: #4d6cfa;
-  transition: all 0.3s ease-in-out;
-  border-radius: 20px;
+.contact-me a:hover{
+ 
+  opacity: 0.7;
+  
+
 }
+
+
+
+
+
+
 .social-icons {
   margin-top: -21%;
   margin-left:73%;
@@ -197,8 +203,8 @@ Home page introduction section
   display: block;
   width:20px;
   height:20px;
-  border-bottom:2px solid #e63464;
-  border-right:2px solid #e63464 ;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff ;
   transform:rotate(45deg);
   animation: animate 2s infinite;
 }
@@ -231,7 +237,8 @@ The projects section
 */
 
 .project-section {
-  margin-top:7%;
+ 
+  border: 1px solid red;
 }
 .main-head h1 {
   color: white;
@@ -288,6 +295,7 @@ The projects section
 .project-img2 {
   margin-left: 55%;
   margin-top: 7%;
+  margin-bottom: 7%;
 }
 .project-2 {
   height: 100%;
@@ -318,118 +326,49 @@ My interest list
 */
 
 .interest-section {
-  margin-top: 15%;
+  border: 1px solid red;
 }
-.flex-1,
-.flex-2 {
+.init-interest-content{
+  margin-left: 15%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1%;
-  flex-wrap: wrap;
+  justify-content:start;
+  margin-top: 7.5%;
 }
-.int-1 {
-  width: 280px;
-  background-color: #f2b9c7;
-  margin: 2%;
-  border-radius: 8px;
+.init-interest-left,.init-interest-right{
+  width: 35%;
+  
 }
-.int-1 h2 {
+.init-interest-left{
+  display: flex;
+  justify-content: start;
+}
+.init-interest-left .lin1,
+.init-interest-left .lin2,
+.init-interest-left .lin3,
+.init-interest-left .lin4,
+.init-interest-left .lin5{
+
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 100;
   font-family: "Roboto", sans-serif;
-  padding: 10% 0 0 10%;
-  font-weight: 500;
-  font-size: 2rem;
-  color: #242424;
+ 
 }
-.int-1 p {
-  font-family: "Roboto", sans-serif;
-  padding: 5% 10% 10% 10%;
-  font-size: 1.6rem;
-  color: #000;
+.init-interest-left .lin2,
+.init-interest-left .lin3,
+.init-interest-left .lin4,
+.init-interest-left .lin5{
+  
+  margin-left: 10%;
 }
-.int-2 {
-  height: 340px;
-  width: 340px;
-  margin: 2%;
-}
-.int-2 img {
-  height: 100%;
-  width: auto;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-.int-2 img:hover {
-  transform: scale(1.1);
-}
-.int-3 {
-  width: 280px;
-  background-color: #e0e0e0;
-  margin: 2%;
-  border-radius: 8px;
-}
-.int-3 h2 {
-  font-family: "Roboto", sans-serif;
-  padding: 10% 0 0 10%;
-  font-weight: 500;
-  font-size: 2rem;
-  color: #242424;
-}
-.int-3 p {
-  font-family: "Roboto", sans-serif;
-  padding: 5% 10% 10% 10%;
-  font-size: 1.6rem;
-  color: #000;
-}
-.int-4 {
-  margin: 2%;
-  height: 340px;
-  width: 340px;
-}
-.int-4 img {
-  height: 100%;
-  width: auto;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-.int-4 img:hover {
-  transform: scale(1.1);
-}
-.int-5 {
-  margin: 2%;
-  border-radius: 8px;
-  width: 260px;
-  background-color: #e0e0e0;
-}
-.int-5 h2 {
-  font-family: "Roboto", sans-serif;
-  padding: 8%;
-  font-weight: 500;
-  font-size: 2rem;
-  color: #242424;
-}
-.int-5 p {
-  font-family: "Roboto", sans-serif;
-  padding: 2% 5% 0 7%;
-  font-size: 1.6rem;
-  color: #000;
-}
-.head-tag {
-  font-weight: 700;
-}
-.int-6 {
-  height: 340px;
-  width: 335px;
-  margin: 2%;
-  background-color: #d9d0c7;
-}
-.int-6 img {
-  height: 100%;
-  width: auto;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-.int-6 img:hover {
-  transform: scale(1.1);
+.init-interest-right p{
+  font-size: 1.4rem;
+  margin-bottom: 3%;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
 
 /*
@@ -437,7 +376,14 @@ The home page contact-reach me section
 */
 
 .reach-container {
+ 
+  border: 1px solid red;
+}
+.init-special{
   margin-top: 15%;
+ 
+}
+.init-spell{
   margin-bottom: 15%;
 }
 .small-reach {
@@ -454,8 +400,13 @@ The home page contact-reach me section
   font-weight: 700;
   font-family: "IBM Plex Sans", sans-serif;
   text-transform: capitalize;
-  color: #e63464;
+  color: #fff;
   letter-spacing: 1px;
+}
+.work-together:hover{
+  color: #e63464;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .work-together,
 .small-reach {
@@ -475,6 +426,7 @@ footer {
   background-color: #000;
   width: 99%;
   border-radius: 0 50px 0 0;
+  border: 1px solid red;
 }
 .footer-content {
   display: flex;
@@ -604,62 +556,84 @@ About page starts here
 
 .content-main {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh;
   background-color: #fff;
   overflow: hidden;
 }
 .left-main {
-  width: 340px;
-  height: 340px;
-  width:40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
  
-}
-.left-main img {
-  height: auto;
-  width: 60%;
-}
-.right-main {
-  width: 60%;
   display: flex;
   justify-content:center;
   align-items: center;
 }
-.right-main-content p {
-  color: #000;
-  font-size: 1.4rem;
+.init-img{
+  height: 300px;
+  width:300px;
+  
+
+}
+.left-main img {
+  height:auto;
+  width:100%;
+}
+.right-main {
+  width: 50%;
+}
+.right-main-content .init-para {
+  margin-top: 10%;
+  margin-bottom:8%;
+  color: #252627;
+  font-size: 4rem;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  opacity: 0.5;
-  text-align:center;
+  
+  
+ 
+}
+.init-age,.init-college,.init-email,.init-place{
+  color:#252627;
+  margin-top:2%;
+  font-size: 1.6rem;
+  font-weight:400;
+}
+.init-age span,.init-college span,.init-email span,.init-place span{
+  color:#3467c2;
+}
+.init-age{
+  margin-top:5%;
 }
 .right-main-content h3 {
-  margin-top: 4%;
-  font-family: "IBM Plex Sans", sans-serif;
-  color: #000;
-  font-size:2rem;
+  font-family: "Roboto", sans-serif;
+  color: #252627;
+  opacity: 0.8;
+  padding-right: 15%;
+  font-weight: 500;
+  font-size:1.6rem;
   text-align:left;
- 
+  line-height: 1.4;
 }
 .cv-btn {
   margin-top: 5%;
+  margin-bottom: 15%;
 }
 .right-main-content a {
-  margin-left: 40%;
+  
   background-color: #e63464;
   color: #fff;
-  padding: 1.5% 3%;
+  padding: 2% 3.5%;
   border-radius: 6px;
   text-decoration: none;
   font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
+  transition: all 0.5s;
+}
+.right-main-content a:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  opacity: 0.7;
 }
 
 /*
@@ -667,7 +641,12 @@ portfolio Education about page section
 */
 
 .edu-main-con {
-  margin-top: 5%;
+ 
+  background-color: #272727;
+  border: 1px solid red;
+}
+.init-top{
+  margin-top:7%;
 }
 .year-edu-div {
   display: grid;
@@ -680,6 +659,7 @@ portfolio Education about page section
   border-top: 2px solid #e63464;
   padding: 1%;
   margin-right: 10%;
+  margin-bottom: 7%;
 }
 .sr-jr-kg2 {
   margin-top: 2%;
@@ -710,7 +690,7 @@ portfolio Education about page section
   margin-bottom: 0.4%;
 }
 .ins-name {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-family: "Roboto", sans-serif;
   color: #fff;
   text-transform: capitalize;
@@ -725,7 +705,7 @@ portfolio Education about page section
 }
 
 .ski-con {
-  margin: 10% 0;
+  border: 1px solid red;
 }
 .skills-sub-section {
   margin-left:15%;
@@ -733,16 +713,29 @@ portfolio Education about page section
   justify-content:left;
   flex-wrap: wrap;
 }
-.skills-first,
+.skills-first,.skills-talk,
 .skills-mid,
 .skills-last {
   width: 35%;
   margin-top: 3%;
   position: relative;
  
+ 
 }
-.skills-mid{
+.skills-first,.skills-last{
   margin-left:10%;
+}
+.skills-last{
+  margin-bottom: 7%;
+}
+.skills-talk p{
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  padding-right: 5%;
+  font-family: "Roboto", sans-serif;
+  margin-top: 21%;
+  
 }
 .skills-first h1,
 .skills-mid h1,
@@ -849,7 +842,9 @@ portfolio Education about page section
 /*
 This is the mainn contact form
 */
-
+.contact-form{
+  border: 1px solid red;
+}
 form {
   display: flex;
   justify-content: center;
@@ -912,7 +907,7 @@ About page service section
 */
 
 .service {
-  margin: 0 0 8% 0;
+  border: 1px solid red;
 }
 .service-content {
   margin-top: 5%;
@@ -924,6 +919,9 @@ About page service section
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.service-content1{
+  margin-bottom: 7%;
 }
 #ser-1 {
   background: #f1aebc;
@@ -958,6 +956,7 @@ About page service section
   text-align: center;
   color: #181818;
   font-size: 1.8rem;
+  font-weight: 500;
   margin-top: 3%;
   font-family: "Roboto", sans-serif;
 }
@@ -969,9 +968,12 @@ About page service section
 .ser-exp {
   text-align: center;
   color: #242424;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
   display: inline-block;
   margin: 5% 2% 0 2%;
+  opacity: 0.7;
+  padding:0 3% 0 3%;
   font-family: "Roboto", sans-serif;
 }
 
