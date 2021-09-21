@@ -28,7 +28,7 @@ ul {
   justify-content: center;
   height: 10%;
   z-index: 10;
-  background-color: #181818;
+  background-color: #000;
 }
 ul li {
   margin-top: 0.5%;
