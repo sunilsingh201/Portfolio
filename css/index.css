@@ -222,7 +222,7 @@ Home page introduction section
 The projects section
 */
 .project-section{
-  background-color:#252627;
+  background-color:#2e2e2e;
 }
 .main-head h1 {
   color: white;
@@ -279,7 +279,7 @@ The projects section
 .project-img2 {
   margin-left: 55%;
   margin-top: 7%;
-  margin-bottom: 7%;
+  padding-bottom: 7%;
 }
 .project-2 {
   height: 100%;
