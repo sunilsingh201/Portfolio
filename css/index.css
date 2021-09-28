@@ -66,9 +66,8 @@ ul li a:hover {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.second{
- 
-  height:100px;
+.second {
+  height: 100px;
   background-color: #000;
   position: absolute;
   top: 0;
@@ -233,8 +232,8 @@ Home page introduction section
 /*
 The projects section
 */
-.project-section{
-  background-color:#2e2e2e;
+.project-section {
+  background-color: #2e2e2e;
 }
 .main-head h1 {
   color: white;
@@ -323,7 +322,6 @@ My interest list
 
 .interest-section {
   background-color: #343434;
-  
 }
 .init-interest-content {
   margin-left: 15%;
@@ -345,8 +343,8 @@ My interest list
 .init-interest-left .lin3 span,
 .init-interest-left .lin4 span,
 .init-interest-left .lin5 span {
- display:inline-block;
- display: block;
+  display: inline-block;
+  display: block;
   writing-mode: vertical-lr;
   text-orientation: upright;
   color: #fff;
@@ -363,7 +361,6 @@ My interest list
   margin-left: 10%;
 }
 .init-interest-right p {
-
   font-size: 1.4rem;
   margin-bottom: 3%;
   line-height: 1.6;
@@ -379,7 +376,7 @@ The home page contact-reach me section
   background-color: #414141;
 }
 .init-special {
-  padding-top:7%;
+  padding-top: 7%;
 }
 .small-reach {
   text-transform: uppercase;
@@ -421,7 +418,6 @@ footer {
   background-color: #000;
   width: 99%;
   border-radius: 0 50px 0 0;
- 
 }
 .footer-content {
   display: flex;
@@ -637,10 +633,10 @@ portfolio Education about page section
 */
 
 .edu-main-con {
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
 }
-.init-top{
-  padding-top:7% ;
+.init-top {
+  padding-top: 7%;
 }
 .year-edu-div {
   display: grid;
@@ -842,30 +838,28 @@ This is the mainn contact form
   justify-content: start;
   padding-top: 5%;
   padding-bottom: 10%;
-
 }
-.contact-left{
+.contact-left {
   width: 35%;
   margin-left: 15%;
- 
 }
-.contact-left h1{
+.contact-left h1 {
   color: #fff;
   font-size: 5rem;
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 0.9;
   margin-top: 10%;
 }
-.contact-left p{
+.contact-left p {
   font-size: 1.3rem;
-  margin-top:10%;
+  margin-top: 10%;
 }
-.wrapper-contact-form{
+.wrapper-contact-form {
   width: 35%;
 }
 form {
   display: flex;
-  justify-content:start;
+  justify-content: start;
   flex-direction: column;
 }
 input[type="text"],
@@ -924,7 +918,6 @@ About page service section
 }
 .service-content {
   margin-top: 5%;
-  
 }
 .service-content,
 .service-content1 {
@@ -991,21 +984,261 @@ About page service section
   font-family: "Roboto", sans-serif;
 }
 
-/*
-Responsiveness of the website
+@media only screen and (max-width: 540px) {
+  .home-content {
+    margin: 35% 0 0 5%;
+  }
+  .greet h3,
+  .name h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0px;
+  }
+  .description h1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .interact-container {
+    display: flex;
+    margin-top: 20%;
+  }
+  .contact-me a {
+    font-size: 1.6rem;
+  }
+  .read-about {
+    margin-left: 10%;
+  }
+  .read-about a {
+    font-weight: 200;
+  }
+  .read-about a:hover {
+    color: #4d6cfa;
+  }
+  .social-icons {
+    margin-top: -20%;
+    margin-left: -60%;
+    flex-direction: row;
+  }
+  .social-icons a:nth-child(1) {
+    margin-top: 5px;
+  }
+  .social-icons a:nth-child(2) {
+    margin-left: 5px;
+  }
+  .social-icons a:nth-child(3) {
+    margin-left: 5px;
+  }
+  .social-icons a:nth-child(4) {
+    margin-left: 5px;
+  }
+  .scrooldown {
+    margin-top: 20%;
+  }
+
+  /* 
+  About me responsiveness code
+  */
+
+  .content-main {
+    flex-direction: column;
+  }
+  .left-main {
+    width: 80%;
+  }
+  .init-img {
+    height: 300px;
+    width: 300px;
+  }
+  .right-main {
+    width: 100%;
+  }
+  .right-main-content .init-para {
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+    font-size: 3rem;
+
+    font-weight: 600;
+  }
+  .init-age,
+  .init-college,
+  .init-email,
+  .init-place {
+    margin-left: 5%;
+  }
+  .right-main-content h3 {
+    margin-left: 5%;
+  }
+  .cv-btn {
+    margin-left: 5%;
+  }
+  /* 
+Education main container responsive
 */
 
-/* 
- // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-  
-  // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-  
-  // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-  
-  // X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
-     
+  .sr-jr-kg1 {
+    margin-top: 4%;
+  }
+  .sr-jr-kg2 {
+    margin-top: 4%;
+  }
+  .sr-jr-kg3 {
+    margin-top: 4%;
+  }
+  /* 
+skill section
 */
+  .skills-sub-section {
+    margin-left: 0%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .skills-first,
+  .skills-talk,
+  .skills-mid,
+  .skills-last {
+    width: 100%;
+    margin-left: 5%;
+  }
+  .skills-last {
+    margin-bottom: 7%;
+  }
+  .skills-talk p {
+    padding: 0 10% 0 0;
+    margin-top: 5%;
+  }
+  .skills-first h1,
+  .skills-mid h1,
+  .skills-last h1 {
+    margin: 6% 0;
+  }
+  #bold {
+    font-weight: 500;
+  }
+  .skills-first p,
+  .skills-mid p,
+  .skills-last p {
+    margin-top: 2%;
+  }
+
+  .container {
+    width: 90%;
+    background-color: #4c2933;
+    height: 2%;
+    border-radius: 8px;
+  }
+  /* 
+  services section
+  */
+
+  #ser-4,
+  #ser-5,
+  #ser-6 {
+    margin-bottom: 1%;
+  }
+
+  /* 
+  Projects section responsive 
+  */
+ 
+.project-img1 {
+  margin: 7% 0 0 10%;
+}
+.project-img1 p {
+  margin-left: 5.2%;
+  
+}
+.project-img2 {
+  margin-left: 10%;
+  
+}
+.project-2 {
+  height:350px;
+  width: 350px;
+}
+.project-img2 p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  margin: 0 0 1.5% 5.5%;
+}
+
+/* 
+interest section
+*/
+
+.init-interest-content {
+  margin-left: 5%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items: center;
+  
+}
+.init-interest-left,
+.init-interest-right {
+  width: 90%;
+}
+.init-interest-left{
+  margin-bottom: 5%;
+}
+.init-interest-left {
+  
+  justify-content:center;
+}
+
+/* 
+contact container section 
+*/
+
+.small-reach {
+ 
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  
+}
+.work-together {
+  font-size: 3.5rem;
+  
+}
+
+/* contact form */
+
+.contact-form {
+  background-color: #414141;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.contact-left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+.contact-left h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  opacity: 0.9;
+  margin-top:0;
+}
+.contact-left p {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+.wrapper-contact-form {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+}
