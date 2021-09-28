@@ -365,7 +365,7 @@ My interest list
   margin-bottom: 3%;
   line-height: 1.6;
   letter-spacing: 1px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /*
@@ -986,7 +986,7 @@ About page service section
 
 @media only screen and (max-width: 540px) {
   .home-content {
-    margin: 35% 0 0 5%;
+    margin: 40% 0 0 5%;
   }
   .greet h3,
   .name h3 {
@@ -995,12 +995,14 @@ About page service section
     letter-spacing: 0px;
   }
   .description h1 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     font-weight: 600;
+    
   }
   .interact-container {
     display: flex;
     margin-top: 20%;
+   
   }
   .contact-me a {
     font-size: 1.6rem;
@@ -1016,7 +1018,7 @@ About page service section
   }
   .social-icons {
     margin-top: -20%;
-    margin-left: -60%;
+    margin-left: -55%;
     flex-direction: row;
   }
   .social-icons a:nth-child(1) {
@@ -1056,18 +1058,23 @@ About page service section
     margin-left: 5%;
     margin-bottom: 5%;
 
-    font-size: 3rem;
+    font-size:3rem;
 
-    font-weight: 600;
+    font-weight: 500;
   }
   .init-age,
   .init-college,
   .init-email,
   .init-place {
     margin-left: 5%;
+    padding-right:5%;
+    font-size: 1.4rem;
   }
   .right-main-content h3 {
     margin-left: 5%;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-right: 5%;
   }
   .cv-btn {
     margin-left: 5%;
@@ -1106,7 +1113,7 @@ skill section
     margin-bottom: 7%;
   }
   .skills-talk p {
-    padding: 0 10% 0 0;
+    padding: 0 5% 0 0;
     margin-top: 5%;
   }
   .skills-first h1,
@@ -1181,7 +1188,7 @@ interest section
 }
 .init-interest-left,
 .init-interest-right {
-  width: 90%;
+  width: 100%;
 }
 .init-interest-left{
   margin-bottom: 5%;
@@ -1190,19 +1197,21 @@ interest section
   
   justify-content:center;
 }
+.init-interest-right p{
+  padding-right: 5%;
+  font-weight: 300;
+}
 
 /* 
 contact container section 
 */
 
 .small-reach {
- 
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-size: 1.2rem;
-  
 }
 .work-together {
-  font-size: 3.5rem;
+  font-size: 3rem;
   
 }
 
@@ -1239,6 +1248,46 @@ contact container section
   width: 90%;
   margin-left: 5%;
   margin-top: 5%;
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  border-radius: 0 0 0 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1;
+}
+.logo-name,
+.link-name,
+.social-link {
+  margin: 2% 2% 5% 2%;
+}
+.logo-name p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  opacity: 0.4;
+  font-weight: 300;
+  text-align: center;
+}
+.logo-name h1 {
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+.link-name {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  
+  width: 50%;
+ 
 }
 
 }
