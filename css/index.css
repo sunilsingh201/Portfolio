@@ -1073,7 +1073,7 @@ About page service section
   .right-main-content h3 {
     margin-left: 5%;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     padding-right: 5%;
   }
   .cv-btn {
@@ -1259,7 +1259,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
+  flex-direction:column;
   flex-wrap: wrap;
   flex: 1 1;
 }
