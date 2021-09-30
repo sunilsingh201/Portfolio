@@ -277,7 +277,7 @@ The projects section
   font-weight: 500;
   opacity: 0.9;
   margin-top: 1.5%;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .project-img1 p {
   color: #fff;
@@ -305,7 +305,7 @@ The projects section
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   opacity: 0.9;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .project-img2 p {
   color: #fff;
@@ -599,7 +599,7 @@ About page starts here
 .init-age {
   margin-top: 5%;
 }
-.right-main-content h3 {
+.right-main-content p {
   font-family: "Roboto", sans-serif;
   color: #252627;
   opacity: 0.8;
@@ -956,8 +956,8 @@ About page service section
   margin: 1%;
   transition: 0.5s ease;
 }
-.service-1:hover {
-  transform: scale(1.1);
+.service-1:hover{
+  transform: scale(1.1) !important;
 }
 .service-1 p {
   text-align: center;
@@ -990,25 +990,25 @@ About page service section
   }
   .greet h3,
   .name h3 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 300;
     letter-spacing: 0px;
   }
   .description h1 {
     font-size: 2.8rem;
-    font-weight: 600;
+    font-weight: 700;
     
   }
   .interact-container {
     display: flex;
-    margin-top: 20%;
+    margin-top: 25%;
    
   }
   .contact-me a {
     font-size: 1.6rem;
   }
   .read-about {
-    margin-left: 10%;
+    margin-left: 18%;
   }
   .read-about a {
     font-weight: 200;
@@ -1017,8 +1017,8 @@ About page service section
     color: #4d6cfa;
   }
   .social-icons {
-    margin-top: -20%;
-    margin-left: -55%;
+    margin-top: -22%;
+    margin-left: -51%;
     flex-direction: row;
   }
   .social-icons a:nth-child(1) {
@@ -1034,7 +1034,7 @@ About page service section
     margin-left: 5px;
   }
   .scrooldown {
-    margin-top: 20%;
+    margin-top: 25%;
   }
 
   /* 
@@ -1070,11 +1070,11 @@ About page service section
     padding-right:5%;
     font-size: 1.4rem;
   }
-  .right-main-content h3 {
+  .right-main-content p {
     margin-left: 5%;
     font-size: 1.4rem;
     font-weight: 400;
-    padding-right: 5%;
+    padding-right: 2%;
   }
   .cv-btn {
     margin-left: 5%;
@@ -1115,6 +1115,8 @@ skill section
   .skills-talk p {
     padding: 0 5% 0 0;
     margin-top: 5%;
+    line-height: 1.4;
+    padding-right: 2%;
   }
   .skills-first h1,
   .skills-mid h1,
@@ -1143,7 +1145,7 @@ skill section
   #ser-4,
   #ser-5,
   #ser-6 {
-    margin-bottom: 1%;
+    margin-bottom: 7%;
   }
 
   /* 
@@ -1162,9 +1164,10 @@ skill section
   
 }
 .project-2 {
-  height:350px;
-  width: 350px;
+  height:300px;
+  width: 300px;
 }
+
 .project-img2 p {
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -1198,8 +1201,9 @@ interest section
   justify-content:center;
 }
 .init-interest-right p{
-  padding-right: 5%;
+  padding-right: 3%;
   font-weight: 300;
+  line-height: 1.4;
 }
 
 /* 
@@ -1209,9 +1213,11 @@ contact container section
 .small-reach {
   letter-spacing: 0px;
   font-size: 1.2rem;
+  width: 100%;
 }
 .work-together {
-  font-size: 3rem;
+  font-size:3rem;
+  font-weight:700;
   
 }
 
@@ -1288,6 +1294,9 @@ hr {
   
   width: 50%;
  
+}
+.copywrite{
+  font-size: 1.2rem;
 }
 
 }
