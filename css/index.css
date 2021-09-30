@@ -1003,6 +1003,8 @@ About page service section
   .interact-container {
     display: flex;
     margin-top: 25%;
+    position: absolute;
+    width: 100%;
    
   }
   .contact-me a {
@@ -1018,7 +1020,7 @@ About page service section
     color: #4d6cfa;
   }
   .social-icons {
-    margin-top: -19%;
+    margin-top:2.5%;
     margin-left:0;
     flex-direction: row;
     position: absolute;
@@ -1037,7 +1039,7 @@ About page service section
     margin-left: 5px;
   }
   .scrooldown {
-    margin-top: 16%;
+    margin-top:30%;
   }
 
   /* 
