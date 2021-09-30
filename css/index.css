@@ -987,6 +987,7 @@ About page service section
 @media only screen and (max-width: 540px) {
   .home-content {
     margin: 45% 0 0 5%;
+    position: relative;
   }
   .greet h3,
   .name h3 {
@@ -1036,7 +1037,7 @@ About page service section
     margin-left: 5px;
   }
   .scrooldown {
-    margin-top: 25%;
+    margin-top: 16%;
   }
 
   /* 
