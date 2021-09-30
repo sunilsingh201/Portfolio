@@ -1017,9 +1017,11 @@ About page service section
     color: #4d6cfa;
   }
   .social-icons {
-    margin-top: -22%;
-    margin-left: -51%;
+    margin-top: -19%;
+    margin-left:0;
     flex-direction: row;
+    position: absolute;
+    margin-left: 5%;
   }
   .social-icons a:nth-child(1) {
     margin-top: 5px;
