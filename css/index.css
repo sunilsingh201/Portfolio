@@ -986,7 +986,7 @@ About page service section
 
 @media only screen and (max-width: 540px) {
   .home-content {
-    margin: 40% 0 0 5%;
+    margin: 45% 0 0 5%;
   }
   .greet h3,
   .name h3 {
@@ -995,7 +995,7 @@ About page service section
     letter-spacing: 0px;
   }
   .description h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 700;
     
   }
@@ -1145,6 +1145,9 @@ skill section
   #ser-4,
   #ser-5,
   #ser-6 {
+    margin-bottom: 1%;
+  }
+  #user-6{
     margin-bottom: 7%;
   }
 
@@ -1204,6 +1207,7 @@ interest section
   padding-right: 3%;
   font-weight: 300;
   line-height: 1.4;
+  word-break:normal;
 }
 
 /* 
