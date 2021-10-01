@@ -537,8 +537,7 @@ p {
   padding: 1% 0 3% 0;
 }
 hr {
-  height: 1px;
-  opacity: 0.2;
+  opacity:0.2;
   width: 25%;
   margin: auto;
 }
@@ -996,7 +995,7 @@ About page service section
     letter-spacing: 0px;
   }
   .description h1 {
-    font-size: 3rem;
+    font-size:3.5rem;
     font-weight: 700;
     
   }
@@ -1027,19 +1026,20 @@ About page service section
     margin-left: 5%;
   }
   .social-icons a:nth-child(1) {
-    margin-top: 5px;
+    margin-top: 3px;
   }
   .social-icons a:nth-child(2) {
-    margin-left: 5px;
+    margin-left: 3px;
   }
   .social-icons a:nth-child(3) {
-    margin-left: 5px;
+    margin-left: 3px;
   }
   .social-icons a:nth-child(4) {
-    margin-left: 5px;
+    margin-left: 3px;
   }
   .scrooldown {
-    margin-top:30%;
+    margin-top:35%;
+    
   }
 
   /* 
@@ -1152,8 +1152,8 @@ skill section
   #ser-6 {
     margin-bottom: 1%;
   }
-  #user-6{
-    margin-bottom: 7%;
+  .service-content1{
+    padding-bottom: 10%;
   }
 
   /* 
