@@ -995,7 +995,7 @@ About page service section
     letter-spacing: 0px;
   }
   .description h1 {
-    font-size:3.5rem;
+    font-size:3.2rem;
     font-weight: 700;
     
   }
@@ -1014,9 +1014,11 @@ About page service section
   }
   .read-about a {
     font-weight: 200;
+    color: #4d6cfa;
   }
   .read-about a:hover {
-    color: #4d6cfa;
+    color:#fff;
+    font-weight: 100;
   }
   .social-icons {
     margin-top:2.5%;
@@ -1038,7 +1040,7 @@ About page service section
     margin-left: 3px;
   }
   .scrooldown {
-    margin-top:35%;
+    margin-top:38%;
     
   }
 
