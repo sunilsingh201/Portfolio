@@ -1034,23 +1034,15 @@ Responsive for small screens
     height: 90px;
   }
   .profile {
-    margin-left: 6%;
-    width: 100%;
+    width: 75%;
+    margin-left:0;
   }
   .profile-left {
     height: 55px;
     width: 55px;
   }
   .username {
-    letter-spacing: 2px;
-    text-transform: uppercase;
     font-weight: 500;
-    font-family: "Gemunu Libre", sans-serif;
-    font-size: 1.6rem;
-  }
-  .bio {
-    font-family: "Gemunu Libre", sans-serif;
-    font-size: 1.6rem;
   }
   .header-right {
     margin-right: 10%;
@@ -1060,6 +1052,7 @@ Responsive for small screens
   }
   .header-right {
     visibility: hidden;
+    width: 0;
   }
   .home-content {
     margin: 45% 0 0 5%;
